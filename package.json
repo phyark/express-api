@@ -39,6 +39,7 @@
     "on-finished": "^2.3.0",
     "parseurl": "^1.3.3",
     "path-to-regexp": "^0.1.7",
+    "pm2": "^5.2.2",
     "proxy-addr": "^2.0.6",
     "qs": "^6.7.0",
     "range-parser": "^1.2.1",
@@ -57,7 +58,7 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "serve": "nodemon app.js",
+    "serve": "pm2 start app.js --name express-api",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

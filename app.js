@@ -12,6 +12,6 @@ app.use(express.static(path.join(__dirname, '/public')))
 // 监听路由
 Router(app)
 
-app.listen(59413, () => {
-  console.log(`Your server is running at http://127.0.0.1:59413`)
+app.listen(80, () => {
+  console.log(`Your server is running at http://127.0.0.1`)
 })
