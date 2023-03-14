@@ -1,10 +1,3 @@
-/*
- * @Description: 这是***页面（组件）
- * @Date: 2023-01-20 09:30:33
- * @Author: liukunjia
- * @LastEditors: liukunjia
- * @LastEditTime: 2023-03-14 15:37:28
- */
 const BaseController = require('./BaseController')
 const UserService = require('../services/UserService')
 

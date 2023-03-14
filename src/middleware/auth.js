@@ -1,10 +1,3 @@
-/*
- * @Description: 这是***页面（组件）
- * @Date: 2023-03-13 17:05:18
- * @Author: liukunjia
- * @LastEditors: liukunjia
- * @LastEditTime: 2023-03-14 15:27:49
- */
 const jwt = require('jsonwebtoken');
 const config = require('../config')
 const { sendError } = require('../utils/httpResponseHandler')

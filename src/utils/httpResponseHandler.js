@@ -1,10 +1,3 @@
-/*
- * @Description: 这是***页面（组件）
- * @Date: 2023-03-13 17:10:39
- * @Author: liukunjia
- * @LastEditors: liukunjia
- * @LastEditTime: 2023-03-14 15:11:25
- */
 /**
  * 标准响应函数
  * @param {Object} res HTTP响应对象

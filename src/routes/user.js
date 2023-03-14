@@ -1,10 +1,3 @@
-/*
- * @Description: 这是***页面（组件）
- * @Date: 2023-01-20 09:30:33
- * @Author: liukunjia
- * @LastEditors: liukunjia
- * @LastEditTime: 2023-03-14 15:33:16
- */
 const router = require('express').Router()
 const UserController = require('../controllers/UserController')
 const userConllor = new UserController()

@@ -1,10 +1,3 @@
-/*
- * @Description: 这是***页面（组件）
- * @Date: 2023-01-20 09:30:33
- * @Author: liukunjia
- * @LastEditors: liukunjia
- * @LastEditTime: 2023-03-14 15:57:11
- */
 (function () {
   const username = document.querySelector('input[name=username]')
   const password = document.querySelector('input[name=password]')
