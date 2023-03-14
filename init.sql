@@ -1,7 +1,7 @@
--- 在本地创建 www 用户密码为 www
+-- 在本地创建 www 用户密码为 www （这个 % 需要根据mysql实际host， 有的是 % 有的是localhost）
 CREATE user 'www' @'%' identified by 'www';
 
--- 赋予本地 www 用户 在 admin_server 库，全权限
+-- 赋予本地 www 用户 在 admin_server 库，全权限 （这个 % 需要根据mysql实际host， 有的是 % 有的是localhost）
 GRANT all privileges on admin_server.* to 'www' @'%' with grant option;
 
 -- 更新权限配置
