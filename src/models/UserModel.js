@@ -6,10 +6,12 @@ const User = sequelize.define('user', {
     type: DataTypes.STRING(50),
     primaryKey: true
   },
+  phone: DataTypes.STRING,
   username: DataTypes.STRING,
   password: DataTypes.STRING,
-  createTime: DataTypes.BIGINT,
-  lastTime: DataTypes.BIGINT,
+  create_time: DataTypes.DATE,
+  update_time: DataTypes.DATE,
+  last_time: DataTypes.DATE,
   version: DataTypes.BIGINT
 }, {
   timestamps: false,

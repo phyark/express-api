@@ -1,13 +1,13 @@
 const Sequelize = require('sequelize')
-const config = require('../config/db')
+const config = require('../config')
 
 const sequelize = new Sequelize(
-  config.database,
-  config.username,
-  config.password,
+  config.db.database,
+  config.db.username,
+  config.db.password,
   {
-    host: config.localhost,
-    dialect: config.driver,
+    host: config.db.localhost,
+    dialect: config.db.driver,
     logging: console.log,
     define: {
       timestamps: false

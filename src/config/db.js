@@ -1,9 +1,9 @@
-const config = {
-  database: 'test',
+const db = {
+  database: 'admin_server',
   username: 'www',
   password: 'www',
   host: 'localhost',
   driver: 'mysql'
 }
 
-module.exports = config
+module.exports = db
